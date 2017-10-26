@@ -40,7 +40,7 @@ resource "azurerm_app_service" "lsmith-terraform-2" {
 
     site_config {
         dotnet_framework_version = "v4.0"
-        local_mysql_enabled = false
+        local_mysql_enabled = true
         websockets_enabled = false
         use_32_bit_worker_process = false
     }
